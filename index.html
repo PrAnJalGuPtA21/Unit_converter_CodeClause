@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Unit Converter</h1>
+      <div class="container">
+        <div class="input-group">
+          <label>Enter value in meters:</label>
+          <input type="number" id="metersInput" />
+        </div>
+        <div class="input-group">
+          <label>In feet:</label>
+          <input type="number" id="feetOutput" disabled />
+        </div>
+        <div class="input-group">
+          <label>In inches:</label>
+          <input type="number" id="inchesOutput" disabled />
+        </div>
+        <div class="input-group">
+          <label>In Miles :</label>
+          <input type="number" id="mileOutput" disabled />
+        </div>
+        <div class="input-group">
+          <label>In Yards:</label>
+          <input type="number" id="yardOutput" disabled />
+        </div>
+        <button class="btn" onclick="convert()"><span>Convert</span></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
